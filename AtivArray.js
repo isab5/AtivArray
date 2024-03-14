@@ -1,3 +1,4 @@
-let cores = [ "vermelho", "preto", "branco", "roxo"];
+// primeiro eu criei uma variável 
+let heroisMarvel = [ "homem de ferro", "homem aranha", "hulk", "feiticeira escarlate"];
 
-console.log (cores);
+console.log (heroisMarvel);
