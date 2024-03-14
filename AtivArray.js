@@ -6,4 +6,4 @@ let heroisMarvel = ['homem de ferro', 'hulk', 'feiticeira escarlate', 'capita ma
 // primeiro método (teste)
 heroisMarvel.push('homem aranha');
 
-console.log(heroisMarvel)
+console.log(heroisMarvel);
