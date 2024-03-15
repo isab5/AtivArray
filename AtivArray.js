@@ -16,9 +16,11 @@ let viloesMarvel = ['thanos', 'loki', 'hela', 'ultron'];
 
 let universoMarvel = heroisMarvel.concat(viloesMarvel);
 
-//o quinto método é o .indexOf(), ele retorna o primeiro index do elemento encontrado no array.
+//O quinto método é o .indexOf(), ele retorna o primeiro index do elemento encontrado no array.
 let index = heroisMarvel.indexOf('homem de ferro');
 
+// O sexto método é o .includes(). ele verifica se o elemento existe no array e retorna falando se é true ou false.
+let isTrue = heroisMarvel.includes('thor')
 
 //Espaço reservado para os consoles.
 console.log(heroisMarvel);
@@ -26,3 +28,4 @@ console.log(limite);
 console.log(parametro);
 console.log(universoMarvel);
 console.log(index);
+console.log(isTrue)
