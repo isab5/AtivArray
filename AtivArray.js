@@ -1,9 +1,8 @@
 // primeiro eu criei uma variável
 let heroisMarvel = ['homem de ferro', 'hulk', 'feiticeira escarlate', 'capita marvel'];
 
-//console.log(heroisMarvel);
-
 // primeiro método (teste)
-heroisMarvel.push('homem aranha');
+// heroisMarvel.push('homem aranha');
 
-console.log(heroisMarvel);
+heroisMarvel.reverse()
+console.log(heroisMarvel)
