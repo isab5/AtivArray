@@ -1,8 +1,10 @@
 // primeiro eu criei uma variável
 let heroisMarvel = ['homem de ferro', 'hulk', 'feiticeira escarlate', 'capita marvel'];
 
-// primeiro método (teste)
-// heroisMarvel.push('homem aranha');
+// primeiro método adicionado é o método .reverse() que inverte o array.
+heroisMarvel.reverse();
 
-heroisMarvel.reverse()
-console.log(heroisMarvel)
+//O segundo método é o .slice(), ele seleciona uma parte de um array e retorna um novo array.
+let limite = heroisMarvel.slice(2, 5);
+console.log(heroisMarvel);
+console.log(limite);
