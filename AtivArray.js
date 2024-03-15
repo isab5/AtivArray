@@ -10,13 +10,19 @@ let limite = heroisMarvel.slice(2, 5);
 // O terceito método é o .join(), ele recebe um parâmetro que separar os elementos do array.
 let parametro = heroisMarvel.join(" - ");
 
-// O quarto método é o .concat(), ele junta dois ou mais arrays e retorna um novo array.
+// O quarto método é o .concat(), ele junta dois ou mais arrays e retorna um novo array. Além também de 
+//ter criado outro Array para inserir o método.
 let viloesMarvel = ['thanos', 'loki', 'hela', 'ultron'];
 
 let universoMarvel = heroisMarvel.concat(viloesMarvel);
+
+//o quinto método é o .indexOf(), ele retorna o primeiro index do elemento encontrado no array.
+let index = heroisMarvel.indexOf('homem de ferro');
+
 
 //Espaço reservado para os consoles.
 console.log(heroisMarvel);
 console.log(limite);
 console.log(parametro);
 console.log(universoMarvel);
+console.log(index);
