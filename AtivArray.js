@@ -1,49 +1,99 @@
-// primeiro eu criei uma variável
+// primeiro eu criei duas variáveis
 let heroisMarvel = ['homem de ferro', 'hulk', 'feiticeira escarlate', 'capita marvel'];
 
-// O primeiro método adicionado é o método .reverse() que inverte o array.
-let reverte = heroisMarvel.reverse();
+let heroisDC = ['Batman', 'superman', 'ciborg', 'robin'];
 
-console.log(reverte);
+// O primeiro método adicionado é o método .reverse() que inverte o array.
+// Exemplo 1:
+let reverte1 = heroisMarvel.reverse();
+
+console.log(reverte1);
+
+// Exemplo 2:
+let reverte2 = heroisDC.reverse();
+
+console.log(reverte2);
 
 //O segundo método é o .slice(), ele seleciona uma parte de um array e retorna um novo array.
-let limite = heroisMarvel.slice(2, 5);
+// Exemplo 1:
+let limite1 = heroisMarvel.slice(2, 5);
 
-console.log(limite);
+console.log(limite1);
+
+// Exemplo 2:
+let limite2 = heroisDC.slice(1, 3);
+
+console.log(limite2);
 
 // O terceito método é o .join(), ele recebe um parâmetro que separar os elementos do array.
-let parametro = heroisMarvel.join(" - ");
+// Exemplo 1:
+let parametro1 = heroisMarvel.join(" - ");
 
-console.log(parametro);
+console.log(parametro1);
+
+// Exemplo 2:
+let parametro2 = heroisDC.join(" / ");
+
+console.log(parametro2);
 
 // O quarto método é o .concat(), ele junta dois ou mais arrays e retorna um novo array. Além também de 
 //ter criado outro Array para inserir o método.
+// Exemplo 1:
 let viloesMarvel = ['thanos', 'loki', 'hela', 'ultron'];
 
 let universoMarvel = heroisMarvel.concat(viloesMarvel);
 
 console.log(universoMarvel);
 
-//O quinto método é o .indexOf(), ele retorna o primeiro index do elemento encontrado no array.
-let index = heroisMarvel.indexOf('homem de ferro');
+// Exemplo 2:
+let viloesDC = ['coringa', 'flash-reverso', 'zoom', 'exterminador'];
 
-console.log(index);
+let universoDC = viloesDC.concat(heroisDC);
+
+console.log(universoDC);
+
+//O quinto método é o .indexOf(), ele retorna o primeiro index do elemento encontrado no array.
+// Exemplo 1:
+let index1 = heroisMarvel.indexOf('homem de ferro');
+
+console.log("o index do homem de ferro é:" + index1);
+
+//Exemplo 2: 
+let index2 = viloesDC.indexOf('coringa');
+
+console.log("o index do elemento coringa é:" +  index2);
 
 // O sexto método é o .includes(). ele verifica se o elemento existe no array e retorna falando se é true ou false.
-let isTrue = heroisMarvel.includes('thor')
+// Exemplo 1:
+let isTrue1 = heroisMarvel.includes('thor')
 
-console.log(isTrue);
+console.log(isTrue1);
+
+// Exemplo 2:
+let isTrue2 = viloesDC.includes('coringa')
+
+console.log(isTrue2);
 
 // O sétimo método é o .toString(), ele converte um array em uma string e retorna o resultado.
-let converte = viloesMarvel.toString();
+// Exemplo 1:
+let converte1 = viloesMarvel.toString();
 
-console.log(converte);
+console.log(converte1);
 
-// O método .flat() cria um novo array com todos elementos sub-arrays concatenados nele.
+// Exemplo 2:
+let converte2 = viloesDC.toString();
+
+console.log(converte2);
+
+// O oitavo método é o .flat() cria um novo array com todos elementos sub-arrays concatenados nele.
+// Exemplos 1:
 let numeros1 = [5, 10 , 15, [20, 25]];
 
 console.log(numeros1.flat());
 
+// Exemplos 2:
 let numeros2 = [2, 4, [6, [8, 10]]];
 
 console.log(numeros2.flat(2));
+
+// o nono método é o
