@@ -96,4 +96,13 @@ let numeros2 = [2, 4, [6, [8, 10]]];
 
 console.log(numeros2.flat(2));
 
-// o nono método é o
+// O nono método é o .map(), utiliza-se o .map() quando queremos fazer alguma modificação nos elementos de um Array. 
+// Exemplo 1: dobrando o valor dos números de um Array.
+let numeros3 = [3, 6, 9, 12, 15];
+ 
+console.log(numeros3.map((x) => [x * 2]));
+
+// Exemplo 1: divindo o valor de um Array.
+let numeros4 = [25, 30, 35, 40, 45]
+
+console.log(numeros4.map((x) => [x / 5]));
