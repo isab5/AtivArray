@@ -1,9 +1,9 @@
-// primeiro eu criei duas variáveis
+// primeiro eu criei duas variáveis para inicar a atividade.
 let heroisMarvel = ['homem de ferro', 'hulk', 'feiticeira escarlate', 'capita marvel'];
 
 let heroisDC = ['Batman', 'superman', 'ciborg', 'robin'];
 
-// O primeiro método adicionado é o método .reverse() que inverte o array.
+// O primeiro método adicionado é o método .reverse() que inverte os elementos do array.
 // Exemplo 1:
 let reverte1 = heroisMarvel.reverse();
 
@@ -14,7 +14,7 @@ let reverte2 = heroisDC.reverse();
 
 console.log(reverte2);
 
-//O segundo método é o .slice(), ele seleciona uma parte de um array e retorna um novo array.
+// O segundo método é o .slice(), ele seleciona uma parte de um array e retorna "criando" um novo array.
 // Exemplo 1:
 let limite1 = heroisMarvel.slice(2, 5);
 
@@ -102,7 +102,20 @@ let numeros3 = [3, 6, 9, 12, 15];
 
 console.log(numeros3.map((x) => [x * 2]));
 
-// Exemplo 1: divindo o valor de um Array.
-let numeros4 = [25, 30, 35, 40, 45]
+// Exemplo 1: divindo o valor dos número de um Array.
+let numeros4 = [25, 30, 35, 40, 45];
 
 console.log(numeros4.map((x) => [x / 5]));
+
+// O décimo e último método é .flatMap(), 
+// ele primeiro mapeia cada elemento usando uma função de mapeamento e, em seguida, nivela o resultado em um novo array. 
+// É idêntico a um map seguido por um flat.
+// Exemplo 1: criando um novo array, enquanto o valor dos números está sendo divido.
+let numeros5 = [7, 14, 21, 28, 35];
+
+console.log(numeros5.flatMap((x) => [x / 7]));
+
+// Exemplo 2: criando um novo array com todos elementos concatenados neles, enquanto o valor dos números está sendo multiplicado.
+let numeros6 = [50, 70, 90, 100, 120];
+
+console.log(numeros6.flatMap((x) => [[x * 10]]));
