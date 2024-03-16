@@ -168,3 +168,7 @@ numeros9.splice(3, 1, 16); //  // Aqui eu estou aplicando o splice para substitu
 //  e para isso eu precisei adicionar o index do elemento que será substituido para ocorrer a substituição.
 
 co6nsole.log(numeros9); // Após substituir um elemento pelo outro, a exibição é: [ 4, 8, 12, 16, 20 ]
+
+// Nome: Isabella Borin de Moraes Rosa
+// Turma: TDS1
+// Atividade: Atividade Arrays e Git!
