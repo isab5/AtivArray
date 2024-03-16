@@ -61,7 +61,7 @@ console.log("o index do homem de ferro é:" + index1);
 //Exemplo 2: 
 let index2 = viloesDC.indexOf('coringa');
 
-console.log("o index do elemento coringa é:" +  index2);
+console.log("o index do elemento coringa é:" + index2);
 
 // O sexto método é o .includes(). ele verifica se o elemento existe no array e retorna falando se é true ou false.
 // Exemplo 1:
@@ -87,7 +87,7 @@ console.log(converte2);
 
 // O oitavo método é o .flat() cria um novo array com todos elementos sub-arrays concatenados nele.
 // Exemplos 1:
-let numeros1 = [5, 10 , 15, [20, 25]];
+let numeros1 = [5, 10, 15, [20, 25]];
 
 console.log(numeros1.flat());
 
@@ -99,7 +99,7 @@ console.log(numeros2.flat(2));
 // O nono método é o .map(), utiliza-se o .map() quando queremos fazer alguma modificação nos elementos de um Array. 
 // Exemplo 1: dobrando o valor dos números de um Array.
 let numeros3 = [3, 6, 9, 12, 15];
- 
+
 console.log(numeros3.map((x) => [x * 2]));
 
 // Exemplo 1: divindo o valor de um Array.
